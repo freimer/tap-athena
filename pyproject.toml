@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "tap-athena"
-version = "0.0.1"
+version = "0.1.0"
 description = "`tap-athena` is a Singer tap for Athena, built with the Meltano SDK for Singer Taps."
-authors = ["AJ Steers"]
+authors = ["AJ Steers", "Fred Reimer"]
 license = "Apache 2.0"
 
 [tool.poetry.dependencies]

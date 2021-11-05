@@ -29,7 +29,11 @@ tap-athena --about
 
 ### Source Authentication and Authorization
 
-Authentication is performed using AWS credentials, as provided from config settings descried above.
+Authentication is performed using AWS credentials, as provided from config
+settings descried above.  If the aws_access_key_id and aws_secret_access_key
+are not specified the credentials will be automatically determined using the
+standard AWS libraires.  That is, environment variables, default profile
+credentials, or instance credentials.
 
 ## Usage
 
